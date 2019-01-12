@@ -8,13 +8,11 @@
     <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="var" alwaysStopAt="false" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="false" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="itin" value="for ($VARKIND$ $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
     <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="var" alwaysStopAt="false" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="itar" value="for ($VARKIND$ $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  $VARKIND2$ $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
     <variable name="VARKIND" expression="jsSuggestDefaultVariableKind(false)" defaultValue="var" alwaysStopAt="false" />
@@ -22,7 +20,6 @@
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="VARKIND2" expression="jsSuggestDefaultVariableKind()" defaultValue="var" alwaysStopAt="false" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ritar" value="for ($VARKIND$ $INDEX$ = $ARRAY$.length - 1; $INDEX$ &gt;= 0; $INDEX$--) {&#10;  $VARKIND2$ $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array in reverse order" toReformat="true" toShortenFQNames="true">
     <variable name="VARKIND" expression="jsSuggestDefaultVariableKind(false)" defaultValue="var" alwaysStopAt="false" />
@@ -30,7 +27,6 @@
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="VARKIND2" expression="jsSuggestDefaultVariableKind()" defaultValue="var" alwaysStopAt="false" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="importitems" value="import {$ITEM$$END$} from &quot;$MODULE$&quot;;&#10;" description="Import statement - import {b} from 'a'" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
