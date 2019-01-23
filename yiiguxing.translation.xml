@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="avator" />
       <item value="sys Role" />
       <item value="enum declaration" />
       <item value="declaration" />
@@ -8,7 +9,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="3" />
+        <entry key="CHINESE" value="4" />
         <entry key="ENGLISH" value="4" />
       </map>
     </option>
