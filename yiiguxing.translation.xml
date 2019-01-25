@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="存在" />
+      <item value="纯在" />
       <item value="匹配" />
       <item value="Principal" />
       <item value="Credentials" />
