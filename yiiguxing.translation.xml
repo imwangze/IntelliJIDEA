@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Jobs added with no trigger must be durable." />
       <item value="durable" />
       <item value="store" />
       <item value="=store" />
