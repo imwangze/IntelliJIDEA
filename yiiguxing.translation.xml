@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="durable" />
+      <item value="store" />
+      <item value="=store" />
+      <item value="identification" />
       <item value="doc tags" />
       <item value="security" />
       <item value="sercurity" />
