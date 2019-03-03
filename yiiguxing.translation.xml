@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Delegate" />
+      <item value="DriverDelegate" />
       <item value="which does not support persistence. and is not clustered." />
       <item value="persistence" />
       <item value="Jobs added with no trigger must be durable." />
