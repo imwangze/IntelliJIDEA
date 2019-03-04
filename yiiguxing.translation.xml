@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="order" />
+      <item value="工厂" />
       <item value="Delegate" />
       <item value="DriverDelegate" />
       <item value="which does not support persistence. and is not clustered." />
@@ -27,8 +29,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="7" />
-        <entry key="ENGLISH" value="7" />
+        <entry key="CHINESE" value="8" />
+        <entry key="ENGLISH" value="8" />
       </map>
     </option>
   </component>
