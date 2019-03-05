@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="生成" />
       <item value="步骤" />
       <item value="order" />
       <item value="工厂" />
@@ -16,7 +17,6 @@
       <item value="doc tags" />
       <item value="security" />
       <item value="sercurity" />
-      <item value="生成" />
       <item value="存在" />
       <item value="纯在" />
       <item value="匹配" />
